@@ -140,7 +140,7 @@ def averageRGB(image):
   return (r, g, b)
 
 def generatePics(ts):
-  directory = os.getcwd() + "\\pictures\\"
+  directory = os.getcwd() + "/pictures/"
   allPics = os.listdir(directory)
 
   images = []
@@ -155,7 +155,7 @@ def generatePics(ts):
 @app.route('/download')
 def download():
     if count > 0:
-        path = os.getcwd() + '\Mom-Mosaic.png'
+        path = os.getcwd() + '/Mom-Mosaic.png'
         print(path)
         return send_file(path, as_attachment=True)
     return "No mosaic has been created yet\nGo back!", 404
