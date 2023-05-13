@@ -1,8 +1,9 @@
 class Config:
- DEBUG = False
- DEVELOPMENT = False
- CSRF_ENABLED = True
- ASSETS_DEBUG = False
+    DEBUG = False
+    DEVELOPMENT = False
+    CSRF_ENABLED = True
+    ASSETS_DEBUG = False
+    GUNICORN_TIMEOUT = 200
 
 class ProductionConfig(Config):
  pass
