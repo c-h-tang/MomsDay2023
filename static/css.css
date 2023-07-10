@@ -9,7 +9,7 @@ body {
   footer {
     color: hsla(13, 97%, 92%, 1);
     font-size: 14px;
-    background-color: #AF69EE;
+    background-color: #834199;
     border-top: dotted 1px white;
   }
   
@@ -67,7 +67,7 @@ body {
   }
   
   header {
-    background-color: #AF69EE;
+    background-color: #834199;
     border-bottom: dotted 1px #333;
   }
   
